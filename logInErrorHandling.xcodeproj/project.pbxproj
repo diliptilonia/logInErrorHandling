@@ -14,6 +14,8 @@
 		DB6873CB1F6D7B24005003B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6873CA1F6D7B24005003B9 /* Assets.xcassets */; };
 		DB6873CE1F6D7B24005003B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6873CC1F6D7B24005003B9 /* LaunchScreen.storyboard */; };
 		DB6873D91F6D7B24005003B9 /* logInErrorHandlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6873D81F6D7B24005003B9 /* logInErrorHandlingTests.swift */; };
+		DB6873E41F6D7CFE005003B9 /* String-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6873E31F6D7CFE005003B9 /* String-Extention.swift */; };
+		DB6873E61F6D7DCD005003B9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6873E51F6D7DCD005003B9 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		DB6873D41F6D7B24005003B9 /* logInErrorHandlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logInErrorHandlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6873D81F6D7B24005003B9 /* logInErrorHandlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInErrorHandlingTests.swift; sourceTree = "<group>"; };
 		DB6873DA1F6D7B24005003B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6873E31F6D7CFE005003B9 /* String-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extention.swift"; sourceTree = "<group>"; };
+		DB6873E51F6D7DCD005003B9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		DB6873B41F6D7B24005003B9 = {
 			isa = PBXGroup;
 			children = (
+				DB6873E31F6D7CFE005003B9 /* String-Extention.swift */,
+				DB6873E51F6D7DCD005003B9 /* Alert.swift */,
 				DB6873BF1F6D7B24005003B9 /* logInErrorHandling */,
 				DB6873D71F6D7B24005003B9 /* logInErrorHandlingTests */,
 				DB6873BE1F6D7B24005003B9 /* Products */,
@@ -205,6 +211,8 @@
 				DB6873C31F6D7B24005003B9 /* ViewController.swift in Sources */,
 				DB6873C91F6D7B24005003B9 /* logInErrorHandling.xcdatamodeld in Sources */,
 				DB6873C11F6D7B24005003B9 /* AppDelegate.swift in Sources */,
+				DB6873E61F6D7DCD005003B9 /* Alert.swift in Sources */,
+				DB6873E41F6D7CFE005003B9 /* String-Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
